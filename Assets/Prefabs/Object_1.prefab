@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8696799441926031038}
   - component: {fileID: 3280903626408222853}
   - component: {fileID: 5016108431922196066}
+  - component: {fileID: 4471303616133852962}
   m_Layer: 0
   m_Name: Object_1
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825342687640225191}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7119, y: 0.0818, z: -0.0145}
-  m_LocalScale: {x: 6.297661, y: 4.057709, z: 4.2836895}
+  m_LocalPosition: {x: 0.62, y: 0.0818, z: -0.0145}
+  m_LocalScale: {x: 62.97661, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -108,10 +109,10 @@ FixedJoint:
   m_ConnectedBody: {fileID: 0}
   m_BreakForce: 50000
   m_BreakTorque: Infinity
-  m_EnableCollision: 1
+  m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
-  m_ConnectedMassScale: 1
+  m_ConnectedMassScale: 0.8
 --- !u!114 &5016108431922196066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,3 +127,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 0
   fixPoints: 
+--- !u!136 &4471303616133852962
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825342687640225191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 0.23
+  m_Direction: 0
+  m_Center: {x: -0.08, y: -0.0000000018626451, z: 0}
