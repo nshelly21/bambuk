@@ -58,10 +58,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Bamboo.cs" />
      <Compile Include="Assets\Scripts\Cylinder.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\GameObject.cs" />
      <Compile Include="Assets\Scripts\Nastya.cs" />
+     <Compile Include="Assets\Scripts\SelectionManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/danny/Documents/GitHub/bambuk/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
