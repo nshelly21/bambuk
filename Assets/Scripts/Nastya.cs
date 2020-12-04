@@ -19,7 +19,7 @@ public class Nastya : MonoBehaviour
     public bool needConfiguration = true;
 
     // Start is called before the first frame update
-    void Start()
+    /*void Start()
     {
         for (int i = 0; i < Lenght; i++)
         {
@@ -73,5 +73,5 @@ public class Nastya : MonoBehaviour
         //OnMouseDown();
         //Config(List<Cylinder> cubesList);
        Movements();
-    }
+    }*/
 }

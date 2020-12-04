@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class Cylinder : MonoBehaviour
 {
-    [SerializeField] private float length;
-    [SerializeField] private List<int> fixPoints;
-    
+    public void OnCollisionEnter(Collision other)//event
+    {
+        
+        if (!other.gameObject.name.Equals("Object_1(Clone)"))
+        { 
+            this.gameObject.AddComponent<FixedJoint>();
+            Debug.Log("IM HERE");
+        }
+    }
         // Start is called before the first frame update
     void Start()
     {
