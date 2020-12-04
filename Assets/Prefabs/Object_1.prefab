@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1698411143614991518}
   - component: {fileID: 8696799441926031038}
   - component: {fileID: 3280903626408222853}
-  - component: {fileID: 5016108431922196066}
+  - component: {fileID: 181113007616897611}
   m_Layer: 0
   m_Name: Object_1
   m_TagString: Untagged
@@ -97,7 +97,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!138 &3280903626408222853
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5016108431922196066
+--- !u!114 &181113007616897611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

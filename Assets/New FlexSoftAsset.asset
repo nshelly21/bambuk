@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4f6c478d4a1e845b3319d5e737f6c8, type: 3}
+  m_Name: New FlexSoftAsset
+  m_EditorClassIdentifier: 
+  m_particles:
+  - {x: 0.58505946, y: 0.012499999, z: -0.90975773, w: 1}
+  - {x: 0.58505946, y: -0.012499999, z: -0.9347577, w: 1}
+  - {x: 0.5600595, y: 0.012499999, z: -0.9347577, w: 1}
+  - {x: 0.5600595, y: -0.012499999, z: -0.90975773, w: 1}
+  - {x: 0.48505947, y: 0.012499999, z: -0.90975773, w: 1}
+  - {x: 0.48505947, y: -0.012499999, z: -0.9347577, w: 1}
+  - {x: 0.46005946, y: 0.012499999, z: -0.9347577, w: 1}
+  - {x: 0.46005946, y: -0.012499999, z: -0.90975773, w: 1}
+  - {x: 0.38505945, y: 0.012499999, z: -0.90975773, w: 1}
+  - {x: 0.38505945, y: -0.012499999, z: -0.9347577, w: 1}
+  - {x: 0.36005944, y: 0.012499999, z: -0.9347577, w: 1}
+  - {x: 0.36005944, y: -0.012499999, z: -0.90975773, w: 1}
+  m_maxParticles: 12
+  m_springIndices: 
+  m_springCoefficients: []
+  m_springRestLengths: []
+  m_shapeIndices: 0a0000000b000000080000000900000006000000070000000400000005000000020000000300000000000000010000000a0000000b00000008000000090000000600000007000000040000000500000002000000030000000000000001000000
+  m_shapeOffsets: 0c00000018000000
+  m_shapeCoefficients:
+  - 0.2
+  - 0.2
+  m_shapeCenters:
+  - {x: 0.47255945, y: -1.200533e-10, z: -0.9222577}
+  - {x: 0.47255945, y: -1.200533e-10, z: -0.9222577}
+  m_triangleIndices: 
+  m_inflatable: 0
+  m_inflatableVolume: 0
+  m_inflatablePressure: 0
+  m_inflatableStiffness: 0
+  m_fixedParticles: 
+  m_rebuildAsset: 0
+  m_boundaryMesh: {fileID: -2346428509227581198, guid: cbb966f3c6ed19948b44a60db278d59c,
+    type: 3}
+  m_meshLocalScale: {x: 1, y: 1, z: 1}
+  m_particleSpacing: 0.05
+  m_volumeSampling: 1
+  m_surfaceSampling: 0
+  m_clusterSpacing: 0.2
+  m_clusterRadius: 0.2
+  m_clusterStiffness: 0.2
+  m_linkRadius: 0
+  m_linkStiffness: 1
+  m_referenceShape: 1
